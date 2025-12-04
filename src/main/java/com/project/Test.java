@@ -26,7 +26,6 @@ public abstract class Test {
                 case THREE -> {
                     if (ch == 'T') state = State.F;
                     else if (ch == 'E') state = State.TWO;
-                    else if (ch == 'T') state = State.ONE;
                     else state = State.S;
                 }
 
